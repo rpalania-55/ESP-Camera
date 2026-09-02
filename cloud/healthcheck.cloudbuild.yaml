@@ -1,0 +1,9 @@
+steps:
+  - name: curlimages/curl:8.14.1
+    args:
+      - --fail-with-body
+      - --show-error
+      - --silent
+      - --max-time
+      - "20"
+      - https://shopping-board-ingest-730638306338.us-central1.run.app/healthz

@@ -1,0 +1,19 @@
+# Local firmware credentials
+**/secrets.h
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and configuration
+.venv/
+venv/
+.env
+.env.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

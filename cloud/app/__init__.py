@@ -1,0 +1,2 @@
+"""Shopping board capture service."""
+
